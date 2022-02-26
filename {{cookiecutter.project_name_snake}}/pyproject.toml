@@ -3,6 +3,9 @@ name = "{{cookiecutter.project_name_snake}}"
 version = "{{cookiecutter.version}}"
 description = "{{cookiecutter.project_short_description}}"
 authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
+homepage = "{{cookiecutter.author_url}}/{{cookiecutter.project_name_snake}}"
+repository = "{{cookiecutter.author_url}}/{{cookiecutter.project_name_snake}}"
+readme= "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.7"
