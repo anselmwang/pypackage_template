@@ -27,8 +27,8 @@ jobs:
 
   - task: TwineAuthenticate@1
     inputs:
-      artifactFeed: '{{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}'
+      artifactFeed: '{{cookiecutter.project_name_snake}}/{{cookiecutter.project_name_snake}}'
       
   - script: |
-      python -m twine upload -r {{cookiecutter.project_slug}} --config-file $(PYPIRC_PATH) dist/*
+      python -m twine upload -r {{cookiecutter.project_name_snake}} --config-file $(PYPIRC_PATH) dist/*
     displayName: 'publish'
