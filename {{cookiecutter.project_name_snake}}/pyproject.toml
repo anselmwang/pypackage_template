@@ -17,6 +17,9 @@ keyring = "^23.5.0"
 artifacts-keyring = "^0.3.1"
 twine = "^3.8.0"
 pre-commit = "^2.17.0"
+black = "^22.1.0"
+isort = "^5.10.1"
+ipykernel = "^6.9.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
